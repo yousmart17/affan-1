@@ -47,7 +47,7 @@ export default function BirthdayInvite() {
     });
   };
 
-  const handleSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     alert("Geliyorum İnşallah!");
