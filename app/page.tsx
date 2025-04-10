@@ -39,7 +39,7 @@ export default function BirthdayInvite() {
     setAngle(angle + 30);
   };
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -47,7 +47,7 @@ export default function BirthdayInvite() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     alert("Geliyorum İnşallah!");
