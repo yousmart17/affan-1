@@ -108,20 +108,53 @@ export default function BirthdayInvite() {
 
       <p className="mt-6 text-sm text-gray-600">Çarkı çevirmek için fotoğrafın üstüne tıkla 🔄</p>
       
+      {/* Form Bölümü */}
       <div className="mt-8 bg-white p-6 rounded-xl shadow-md w-full max-w-md">
-  <h2 className="text-2xl font-semibold text-gray-800 mb-4">Gelmek istiyorsan bize WhatsApp’tan yaz:</h2>
-  <div className="flex justify-center">
-    <a
-      href="https://wa.me/905325651295?text=Merhaba%2C%20Faris%20Affan%27%C4%B1n%20do%C4%9Fum%20g%C3%BCn%C3%BCne%20gelmek%20istiyorum!"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-6 py-3 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600 transition duration-300 text-lg"
-    >
-      WhatsApp’tan Yaz
-    </a>
-  </div>
-</div>
-
+        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Geliyorsan formu doldur:</h2>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block text-sm font-medium text-gray-700">İsim</label>
+            <input
+              type="text"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleInputChange}
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 text-gray-800"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Soyisim</label>
+            <input
+              type="text"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleInputChange}
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 text-gray-800"
+              required
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Telefon Numarası</label>
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              onChange={handleInputChange}
+              className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 text-gray-800"
+              required
+            />
+          </div>
+          <div className="flex justify-center mt-4">
+            <button
+              type="submit"
+              className="px-6 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition duration-300"
+            >
+              Geliyorum
+            </button>
+          </div>
+        </form>
+      </div>
       
       <p className="mt-6 text-sm text-gray-600">Bu bir YUSMAR ailesi projesi ❤️</p>
     </div>
