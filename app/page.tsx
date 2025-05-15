@@ -109,7 +109,7 @@ export default function BirthdayInvite() {
       <p className="mt-6 text-sm text-gray-600">Çarkı çevirmek için fotoğrafın üstüne tıkla 🔄</p>
       
       <div className="mt-8 bg-white p-6 rounded-xl shadow-md w-full max-w-md">
-  <h2 className="text-2xl font-semibold text-gray-800 mb-4">Gelmek istiyorsan bize WhatsApp’tan yaz:</h2>
+  <h2 className="text-2xl font-semibold text-gray-800 mb-4">Katılmak istersen, kişi sayısıyla birlikte bize WhatsApp’tan yaz:</h2>
   <div className="flex justify-center">
     <a
       href="https://wa.me/905325651295?text=Faris%20Affan%27%C4%B1n%20do%C4%9Fum%20g%C3%BCn%C3%BCne%20gelmek%20istiyorum!%20Beni%20Listeye%20Ekle!"
