@@ -96,7 +96,7 @@ export default function BirthdayInvite() {
         {/* Google Maps Butonu */}
         <div className="mt-4 flex justify-center">
           <a
-            href="https://www.google.com/maps?q=Kapadokya"
+            href="https://maps.app.goo.gl/pjzqMtEQXorH7Dg8A"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition duration-300"
