@@ -85,8 +85,8 @@ export default function BirthdayInvite() {
 
       <div className="bg-white/80 p-4 rounded-2xl shadow-md max-w-md">
         <p className="text-lg text-gray-800">
-          📍 Avanos, Kapadokya <br />
-          🗓️ 10 Haziran | 14:00 <br />
+          📍 Uçhisar, Kapadokya <br />
+          🗓️ 9 Haziran 2025 <br />
     
         </p>
         <div className="flex justify-center mt-2 gap-4">
@@ -112,7 +112,7 @@ export default function BirthdayInvite() {
   <h2 className="text-2xl font-semibold text-gray-800 mb-4">Gelmek istiyorsan bize WhatsApp’tan yaz:</h2>
   <div className="flex justify-center">
     <a
-      href="https://wa.me/905325651295?text=Merhaba%2C%20Faris%20Affan%27%C4%B1n%20do%C4%9Fum%20g%C3%BCn%C3%BCne%20gelmek%20istiyorum!"
+      href="https://wa.me/905325651295?text=Faris%20Affan%27%C4%B1n%20do%C4%9Fum%20g%C3%BCn%C3%BCne%20gelmek%20istiyorum!%20Beni%20Listeye%20Ekle!"
       target="_blank"
       rel="noopener noreferrer"
       className="px-6 py-3 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600 transition duration-300 text-lg"
