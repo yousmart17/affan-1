@@ -11,16 +11,16 @@ const months = [
 
 const examplePhotos = [
   "/images/1.jpeg",
-  "/images/2.jpg",  // 2. Ay
-  "/images/3.jpg",  // 3. Ay
-  "/images/4.jpg",  // 4. Ay
-  "/images/5.jpg",  // 5. Ay
-  "/images/6.jpg",  // 6. Ay
-  "/images/7.jpg",  // 7. Ay
-  "/images/8.jpg",  // 8. Ay
-  "/images/9.jpg",  // 9. Ay
-  "/images/10.jpg",  // 10. Ay
-  "https://drive.google.com/uc?export=view&id=11A2B3C4D5E6F7G8H9I10", // 11. Ay
+  "/images/2.JPG",  // 2. Ay
+  "/images/3.JPG",  // 3. Ay
+  "/images/4.JPG",  // 4. Ay
+  "/images/5.JPG",  // 5. Ay
+  "/images/6.JPG",  // 6. Ay
+  "/images/7.JPG",  // 7. Ay
+  "/images/8.JPG",  // 8. Ay
+  "/images/9.JPG",  // 9. Ay
+  "/images/10.JPG",  // 10. Ay
+  "/images/11.jpeg", // 11. Ay
   "https://drive.google.com/uc?export=view&id=12B3C4D5E6F7G8H9I10J1"  // 12. Ay
 ];
 
